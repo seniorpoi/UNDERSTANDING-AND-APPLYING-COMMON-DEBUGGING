@@ -1,0 +1,24 @@
+A)	What is a breakpoint and how to apply it to debug the program?
+A breakpoint: is a debugging tool used in programming that allows you to pause the execution of your program at a specific line of code. 
+When the program reaches a breakpoint during execution, it stops running, allowing you to inspect the state of the program at that moment.
+•	How to apply it to debug the program?
+Step-by-Step Guide to Applying a Breakpoint in IntelliJ IDEA:
+1.	Open Your Project:
+o	Ensure your Java project is open in IntelliJ IDEA.
+2.	Navigate to the Line of Code:
+o	In the code editor, find the specific line in your Java file where you want the execution to pause.
+3.	Set a Breakpoint:
+o	Click on the Left Margin: Move your mouse to the left margin next to the line number where you want to set the breakpoint. 
+Click on this margin. A red dot (breakpoint marker) will appear, indicating that the breakpoint has been successfully set.
+o	Keyboard Shortcut: Alternatively, you can set or remove a breakpoint by placing the cursor on the line of code and pressing Ctrl+F8 on Windows/Linux or Cmd+F8 on macOS.
+B)	What is stack trace and how to apply it in debugging.?
+A stack trace: is a report that provides information about the active stack frames at a certain point in time during the execution of a program.
+It typically shows the sequence of method calls that led to an exception or error, helping developers understand what went wrong and where.
+How to Apply a Stack Trace in Debugging with IntelliJ
+1.	Trigger an Exception: Run your program in IntelliJ. If an exception occurs, IntelliJ will display a stack trace in the console.
+2.	Analyse the Stack Trace: The stack trace will show the method calls leading up to the exception, including the line numbers and file names.
+This helps you identify where the error occurred.
+3.	Navigate to the Code: You can click on the lines in the stack trace to navigate directly to the corresponding code in your project.
+4.	Set Breakpoints: If needed, set breakpoints in the relevant methods to inspect variable values and the flow of execution.
+5.	Run in Debug Mode: Start the program in debug mode to step through the code and observe how it behaves leading up to the exception.
+
